@@ -28,8 +28,19 @@ Vis = df[(df['Hometown'] == 'Visayas') & (df['Math'] < 70)][['Name', 'Gender', '
 Vis
 `
 
-The code filters df to include only rows where Hometown is "Visayas" and Math is less than 70, selects the Name, Gender, Track, and Math columns, and saves the result to the variable Vis, with the help of pandas(remember:conditions on the left and output on the right)
+The code filters df to include only rows where Hometown is "Visayas" and Math is less than 70, selects the Name, Gender, Track, and Math columns, and saves the result to the variable Vis, with the help of pandas(remember:conditions on the left and output on the right).
 
 <img width="220" height="92" alt="image" src="https://github.com/user-attachments/assets/a4f84be2-6299-4737-b836-1a31fcd7027e" />
 
 1.b
+
+`
+Instru = df[(df['Track'] == 'Instrumentation') & (df['Hometown'] == 'Luzon') & (df['Electronics'] > 70)][['Name', 'GEAS', 'Electronics']]
+Instru
+`
+
+The code filters df to include only rows where Track is "Instrumentation", Hometown is "Luzon", and Electronics is greater than 70, then selects the Name, GEAS, and Electronics columns and stores the result in Instru,with the help of pandas(remember:conditions on the left and output on the right).
+
+<img width="153" height="92" alt="image" src="https://github.com/user-attachments/assets/227c128f-37e7-4d27-853e-7c5bc3d04f39" />
+
+1.c
