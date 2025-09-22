@@ -44,3 +44,13 @@ The code filters df to include only rows where Track is "Instrumentation", Homet
 <img width="153" height="92" alt="image" src="https://github.com/user-attachments/assets/227c128f-37e7-4d27-853e-7c5bc3d04f39" />
 
 1.c
+
+`
+df['Average'] = df[['Math', 'Electronics', 'GEAS','Communication']].mean(axis=1)
+
+
+Mindy = df[(df['Hometown'] == 'Mindanao') & (df['Gender'] == 'Female') & (df['Average'] >= 55)][['Name', 'Track', 'Electronics', 'Average']]
+
+Mindy
+`
+
