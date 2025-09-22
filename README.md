@@ -51,4 +51,7 @@ Mindy = df[(df['Hometown'] == 'Mindanao') & (df['Gender'] == 'Female') & (df['Av
 Mindy
 `
 
-The code calculates each student’s average score across Math, Electronics, GEAS, and Communication, saves it in a new column called Average, then filters df for female students from Mindanao with an average of 55 or higher, selecting only Name, Track, Electronics, and Average, and stores the result in Mindy.
+The code calculates each student’s average score across Math, Electronics, GEAS, and Communication, saves it in a new column called Average with the help of the function mean(), then filters df for female students from Mindanao with an average of 55 or higher, selecting only Name, Track, Electronics, and Average, and stores the result in Mindy.
+
+<img width="245" height="131" alt="image" src="https://github.com/user-attachments/assets/28754df6-c1a0-4c0c-a775-1d07135c05e3" />
+
