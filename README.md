@@ -47,10 +47,8 @@ The code filters df to include only rows where Track is "Instrumentation", Homet
 
 `
 df['Average'] = df[['Math', 'Electronics', 'GEAS','Communication']].mean(axis=1)
-
-
 Mindy = df[(df['Hometown'] == 'Mindanao') & (df['Gender'] == 'Female') & (df['Average'] >= 55)][['Name', 'Track', 'Electronics', 'Average']]
-
 Mindy
 `
 
+The code calculates each student’s average score across Math, Electronics, GEAS, and Communication, saves it in a new column called Average, then filters df for female students from Mindanao with an average of 55 or higher, selecting only Name, Track, Electronics, and Average, and stores the result in Mindy.
