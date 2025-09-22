@@ -29,3 +29,7 @@ Vis
 `
 
 The code filters df to include only rows where Hometown is "Visayas" and Math is less than 70, selects the Name, Gender, Track, and Math columns, and saves the result to the variable Vis.
+
+<img width="220" height="220" alt="image" src="https://github.com/user-attachments/assets/6cc7533b-e28f-4be3-8fb8-809fdcab4a71" />
+
+1.b
