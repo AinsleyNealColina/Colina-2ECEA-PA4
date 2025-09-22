@@ -55,4 +55,20 @@ The code calculates each student’s average score across Math, Electronics, GEA
 
 <img width="245" height="131" alt="image" src="https://github.com/user-attachments/assets/28754df6-c1a0-4c0c-a775-1d07135c05e3" />
 
-2.
+2a.
+
+`
+df['Average'] = df[['Math', 'Electronics', 'GEAS','Communication']].mean(axis=1)
+sns.set(style="darkgrid")
+`
+
+`
+plt.figure(figsize=(10, 6))
+sns.barplot(x='Track', y='Average', data=df, errorbar=None)
+plt.title('Average Grade by Track')
+plt.show()
+`
+
+This code creates a Seaborn bar chart showing the average grades (Average) for each track (Track) from the DataFrame df, with a custom figure size, no error bars, and a title.
+
+<img width="599" height="369" alt="image" src="https://github.com/user-attachments/assets/2e82ee09-6fb8-40c7-9ff0-801b8fa59f1b" />
