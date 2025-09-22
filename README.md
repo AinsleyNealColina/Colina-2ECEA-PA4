@@ -99,7 +99,7 @@ The code generates a Seaborn bar chart comparing the average grades (Average) of
 
 <img width="481" height="310" alt="image" src="https://github.com/user-attachments/assets/a6d415bb-d790-4e32-b82b-04c17ba2cbee" />
 
-2.d
+2d.
 
 `
 plt.figure(figsize=(10, 6))
@@ -111,3 +111,29 @@ plt.show()
 This code creates a Seaborn box plot to display the distribution of average grades (Average) for each track (Track) in the DataFrame df, using a 10×6 figure size and adding a title.
 
 <img width="487" height="307" alt="image" src="https://github.com/user-attachments/assets/e05488c4-df9e-47c4-8b0a-581eba73a155" />
+
+2e.
+
+`
+plt.figure(figsize=(10, 6))
+sns.boxplot(x='Gender', y='Average', data=df)
+plt.title('Distribution of Average Grades by Gender')
+plt.show()
+`
+
+This code produces a Seaborn box plot showing how average grades (Average) are distributed across genders (Gender) in the DataFrame df, with a 10×6 figure size and a title.
+
+<img width="487" height="301" alt="image" src="https://github.com/user-attachments/assets/8a245b2d-c4db-4bbb-9168-0898d7dad532" />
+
+2f.
+
+`
+plt.figure(figsize=(10, 6))
+sns.boxplot(x='Hometown', y='Average', data=df)
+plt.title('Distribution of Average Grades by Hometown')
+plt.show()
+`
+
+This code creates a Seaborn box plot that visualizes the distribution of average grades (Average) for each hometown (Hometown) in the DataFrame df, using a 10×6 figure size and adding a descriptive title.
+
+<img width="481" height="311" alt="image" src="https://github.com/user-attachments/assets/4d868a53-82eb-413d-bb9f-3910dae12894" />
