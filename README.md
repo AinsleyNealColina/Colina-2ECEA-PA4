@@ -55,3 +55,4 @@ The code calculates each student’s average score across Math, Electronics, GEA
 
 <img width="245" height="131" alt="image" src="https://github.com/user-attachments/assets/28754df6-c1a0-4c0c-a775-1d07135c05e3" />
 
+2.
