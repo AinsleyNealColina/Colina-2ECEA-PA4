@@ -18,3 +18,14 @@ So we are tasked to:
 
 2.Create a visualization that shows how the different features contributes to average grade. Does 
 chosen track in college, gender, or hometown contributes to a higher average score? 
+
+Steps:
+
+1a.
+
+`
+Vis = df[(df['Hometown'] == 'Visayas') & (df['Math'] < 70)][['Name', 'Gender', 'Track', 'Math']]
+Vis
+`
+
+The code filters df to include only rows where Hometown is "Visayas" and Math is less than 70, selects the Name, Gender, Track, and Math columns, and saves the result to the variable Vis.
