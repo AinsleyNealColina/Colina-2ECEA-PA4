@@ -7,3 +7,8 @@
 be used in data wrangling and data visualization.
 
 ## Problem 1: Data Frames
+
+So we are tasked to:
+
+1.
+1.1Display the
