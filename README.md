@@ -69,6 +69,45 @@ plt.title('Average Grade by Track')
 plt.show()
 `
 
-This code creates a Seaborn bar chart showing the average grades (Average) for each track (Track) from the DataFrame df, with a custom figure size, no error bars, and a title.
+The code creates a Seaborn bar chart showing the average grades (Average) for each track (Track) from the DataFrame df, with a custom figure size, no error bars, and a title.
 
 <img width="599" height="369" alt="image" src="https://github.com/user-attachments/assets/2e82ee09-6fb8-40c7-9ff0-801b8fa59f1b" />
+
+2b.
+
+`
+plt.figure(figsize=(10, 6))
+sns.barplot(x='Gender', y='Average', data=df, errorbar=None)
+plt.title('Average Grade by Gender')
+plt.show()
+`
+
+The code plots a Seaborn bar chart comparing the average grades (Average) for each gender (Gender) in the DataFrame df, using a 10×6 figure size, no error bars, and a title.
+
+<img width="467" height="306" alt="image" src="https://github.com/user-attachments/assets/6ce11284-86a2-4ec6-abf8-d5f3d77dc327" />
+
+2c.
+
+`
+plt.figure(figsize=(10, 6))
+sns.barplot(x='Hometown', y='Average', data=df, errorbar=None)
+plt.title('Average Grade by Hometown')
+plt.show()
+`
+
+The code generates a Seaborn bar chart comparing the average grades (Average) of students grouped by their hometown (Hometown) from the DataFrame df, with a 10×6 figure size, no error bars, and a descriptive title.
+
+<img width="481" height="310" alt="image" src="https://github.com/user-attachments/assets/a6d415bb-d790-4e32-b82b-04c17ba2cbee" />
+
+2.d
+
+`
+plt.figure(figsize=(10, 6))
+sns.boxplot(x='Track', y='Average', data=df)
+plt.title('Distribution of Average Grades by Track')
+plt.show()
+`
+
+This code creates a Seaborn box plot to display the distribution of average grades (Average) for each track (Track) in the DataFrame df, using a 10×6 figure size and adding a title.
+
+<img width="487" height="307" alt="image" src="https://github.com/user-attachments/assets/e05488c4-df9e-47c4-8b0a-581eba73a155" />
