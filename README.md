@@ -21,6 +21,16 @@ chosen track in college, gender, or hometown contributes to a higher average sco
 
 Steps:
 ## Problem 1:Data Frames
+1.Before we start we must load the excel file and import pandas as pd
+
+```python
+# Reads the excel file
+df=pd.read_excel('board2.xlsx')
+
+# calls the excel file
+df
+```
+
 1a.
 
 ```python
