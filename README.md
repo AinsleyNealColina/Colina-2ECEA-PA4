@@ -192,9 +192,16 @@ The code generates a Seaborn bar chart comparing the average grades (Average) of
 2d.
 
 ```python
+#plt uses matplotlib and figsize(10,6) means 10 inches of width and 6 inches of height
 plt.figure(figsize=(10, 6))
+
+#Draws a box plot using seaborn and displays the Track on the horizontal axis and Average on the Vertical axis,and it gets its data from df
 sns.boxplot(x='Track', y='Average', data=df)
+
+#Names the boxplot "Average grade by Track"
 plt.title('Distribution of Average Grades by Track')
+
+#Displays the completed boxplot
 plt.show()
 ```
 
