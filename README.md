@@ -212,9 +212,16 @@ This code creates a Seaborn box plot to display the distribution of average grad
 2e.
 
 ```python
+#plt uses matplotlib and figsize(10,6) means 10 inches of width and 6 inches of height
 plt.figure(figsize=(10, 6))
+
+#Draws a box plot using seaborn and displays the Gender on the horizontal axis and Average on the Vertical axis,and it gets its data from df
 sns.boxplot(x='Gender', y='Average', data=df)
+
+#Names the boxplot "Average grade by Gender"
 plt.title('Distribution of Average Grades by Gender')
+
+#Displays the completed boxplot
 plt.show()
 ```
 
@@ -225,9 +232,16 @@ This code produces a Seaborn box plot showing how average grades (Average) are d
 2f.
 
 ```python
+#plt uses matplotlib and figsize(10,6) means 10 inches of width and 6 inches of height
 plt.figure(figsize=(10, 6))
+
+#Draws a box plot using seaborn and displays the Hometown on the horizontal axis and Average on the Vertical axis,and it gets its data from df
 sns.boxplot(x='Hometown', y='Average', data=df)
+
+#Names the boxplot "Average grade by Hometown"
 plt.title('Distribution of Average Grades by Hometown')
+
+#Displays the completed boxplot
 plt.show()
 ```
 
