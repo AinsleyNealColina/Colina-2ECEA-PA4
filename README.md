@@ -24,6 +24,9 @@ Steps:
 1.Before we start we must load the excel file and import pandas as pd
 
 ```python
+#To be able to read the excel file
+import pandas as pd
+
 # Reads the excel file
 df=pd.read_excel('board2.xlsx')
 
