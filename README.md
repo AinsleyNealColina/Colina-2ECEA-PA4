@@ -35,7 +35,7 @@ df
 
 ```python
 #name of the file
-Vis
+Vis= df[(df['Hometown'] == 'Visayas') & (df['Math'] < 70)][['Name', 'Gender', 'Track', 'Math']]
 
 #sorts the data where the Hometown is Visayas
 df[(df['Hometown'] == 'Visayas')
@@ -56,10 +56,14 @@ The code filters df to include only rows where Hometown is "Visayas" and Math is
 
 1.b
 
-`
-Instru = df[(df['Track'] == 'Instrumentation') & (df['Hometown'] == 'Luzon') & (df['Electronics'] > 70)][['Name', 'GEAS', 'Electronics']]
+```python
+Instru=df[(df['Track'] == 'Instrumentation') & (df['Hometown'] == 'Luzon') & (df['Electronics'] > 70)][['Name', 'GEAS', 'Electronics']]
+df[(df['Track'] == 'Instrumentation')
+(df['Hometown'] == 'Luzon')
+(df['Electronics'] > 70)]
+[['Name', 'GEAS', 'Electronics']]
 Instru
-`
+```
 
 The code filters df to include only rows where Track is "Instrumentation", Hometown is "Luzon", and Electronics is greater than 70, then selects the Name, GEAS, and Electronics columns and stores the result in Instru,with the help of pandas(remember:conditions on the left and output on the right).
 
