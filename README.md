@@ -83,11 +83,28 @@ The code filters df to include only rows where Track is "Instrumentation", Homet
 
 1.c
 
-`
+```python
+#Calculates tha average of grades or mean of the subjects using the .mean()function
 df['Average'] = df[['Math', 'Electronics', 'GEAS','Communication']].mean(axis=1)
+
+#Name of the file
 Mindy = df[(df['Hometown'] == 'Mindanao') & (df['Gender'] == 'Female') & (df['Average'] >= 55)][['Name', 'Track', 'Electronics', 'Average']]
+
+#sorts the data where hometown is Mindanao
+df[(df['Hometown'] == 'Mindanao')
+
+#sorts the data where gender is female
+(df['Gender'] == 'Female')
+
+#Sorts the average where it is greater than or equal to 55
+(df['Average'] >= 55)]
+
+#Outputs the Name,Track,Electronics,Average where the conditions where met
+[['Name', 'Track', 'Electronics', 'Average']]
+
+#Call the filename
 Mindy
-`
+```
 
 The code calculates each student’s average score across Math, Electronics, GEAS, and Communication, saves it in a new column called Average with the help of the function mean(), then filters df for female students from Mindanao with an average of 55 or higher, selecting only Name, Track, Electronics, and Average, and stores the result in Mindy.
 
