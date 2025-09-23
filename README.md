@@ -118,20 +118,25 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 ```
 
-This will be used for functions of visualization
+This will be used for functions of visualization.
+
 2a.
 
-`
+```python
+#Selects only these 4 columns from the dataframe and calculates the mean,mean(axis=1)because axis=1 means operate across columns,if 0 it would be rows
 df['Average'] = df[['Math', 'Electronics', 'GEAS','Communication']].mean(axis=1)
-sns.set(style="darkgrid")
-`
 
-`
+#sns refers to seaborn and darkgrdid changes the overall appearance of your barplot/boxplot
+sns.set(style="darkgrid")
+```
+
+
+```python
 plt.figure(figsize=(10, 6))
 sns.barplot(x='Track', y='Average', data=df, errorbar=None)
 plt.title('Average Grade by Track')
 plt.show()
-`
+```
 
 The code creates a Seaborn bar chart showing the average grades (Average) for each track (Track) from the DataFrame df, with a custom figure size, no error bars, and a title.(With the help of matplotlib.pyplot and seaborn)
 
