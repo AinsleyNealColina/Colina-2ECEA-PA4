@@ -118,6 +118,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 ```
 
+This will be used for functions of visualization
 2a.
 
 `
