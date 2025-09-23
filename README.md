@@ -132,9 +132,16 @@ sns.set(style="darkgrid")
 
 
 ```python
+#plt uses matplotlib and figsize(10,6) means 10 inches of width and 6 inches of height
 plt.figure(figsize=(10, 6))
+
+#Draws a bar plot using seaborn and displays the Tracks on the horizontal axis and Average on the Vertical axis,and it gets its data from df
 sns.barplot(x='Track', y='Average', data=df, errorbar=None)
+
+#Names the barplot "Average grade by track"
 plt.title('Average Grade by Track')
+
+#Displays the completed barplot
 plt.show()
 ```
 
