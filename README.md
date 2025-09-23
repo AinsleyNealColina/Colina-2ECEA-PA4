@@ -151,12 +151,19 @@ The code creates a Seaborn bar chart showing the average grades (Average) for ea
 
 2b.
 
-`
+```python
+#plt uses matplotlib and figsize(10,6) means 10 inches of width and 6 inches of height
 plt.figure(figsize=(10, 6))
+
+#Draws a bar plot using seaborn and displays the Gender on the horizontal axis and Average on the Vertical axis,and it gets its data from df
 sns.barplot(x='Gender', y='Average', data=df, errorbar=None)
+
+#Names the barplot "Average grade by gender"
 plt.title('Average Grade by Gender')
+
+#Displays the completed barplot
 plt.show()
-`
+```
 
 The code plots a Seaborn bar chart comparing the average grades (Average) for each gender (Gender) in the DataFrame df, using a 10×6 figure size, no error bars, and a title.(With the help of matplotlib.pyplot and seaborn)
 
@@ -164,12 +171,19 @@ The code plots a Seaborn bar chart comparing the average grades (Average) for ea
 
 2c.
 
-`
+```python
+#plt uses matplotlib and figsize(10,6) means 10 inches of width and 6 inches of height
 plt.figure(figsize=(10, 6))
+
+#Draws a bar plot using seaborn and displays the Hometown on the horizontal axis and Average on the Vertical axis,and it gets its data from df
 sns.barplot(x='Hometown', y='Average', data=df, errorbar=None)
+
+#Names the barplot "Average grade by Hometown"
 plt.title('Average Grade by Hometown')
+
+#Displays the completed barplot
 plt.show()
-`
+```
 
 The code generates a Seaborn bar chart comparing the average grades (Average) of students grouped by their hometown (Hometown) from the DataFrame df, with a 10×6 figure size, no error bars, and a descriptive title.(With the help of matplotlib.pyplot and seaborn)
 
@@ -177,12 +191,12 @@ The code generates a Seaborn bar chart comparing the average grades (Average) of
 
 2d.
 
-`
+```python
 plt.figure(figsize=(10, 6))
 sns.boxplot(x='Track', y='Average', data=df)
 plt.title('Distribution of Average Grades by Track')
 plt.show()
-`
+```
 
 This code creates a Seaborn box plot to display the distribution of average grades (Average) for each track (Track) in the DataFrame df, using a 10×6 figure size and adding a title.(With the help of matplotlib.pyplot and seaborn)
 
@@ -190,12 +204,12 @@ This code creates a Seaborn box plot to display the distribution of average grad
 
 2e.
 
-`
+```python
 plt.figure(figsize=(10, 6))
 sns.boxplot(x='Gender', y='Average', data=df)
 plt.title('Distribution of Average Grades by Gender')
 plt.show()
-`
+```
 
 This code produces a Seaborn box plot showing how average grades (Average) are distributed across genders (Gender) in the DataFrame df, with a 10×6 figure size and a title.(With the help of matplotlib.pyplot and seaborn)
 
@@ -203,12 +217,12 @@ This code produces a Seaborn box plot showing how average grades (Average) are d
 
 2f.
 
-`
+```python
 plt.figure(figsize=(10, 6))
 sns.boxplot(x='Hometown', y='Average', data=df)
 plt.title('Distribution of Average Grades by Hometown')
 plt.show()
-`
+```
 
 This code creates a Seaborn box plot that visualizes the distribution of average grades (Average) for each hometown (Hometown) in the DataFrame df, using a 10×6 figure size and adding a descriptive title.(With the help of matplotlib.pyplot and seaborn)
 
