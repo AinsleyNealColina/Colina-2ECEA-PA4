@@ -6,21 +6,21 @@
 2.To be able to apply and use the different codes and functions in creating a Python program that will 
 be used in data wrangling and data visualization.
 
-## Problem 1: Data Frames
 
 So we are tasked to:
-
+## Problem 1:Data Frames
 1a.Display the data [Name,Gender,Track,Math]. With the condition of Hometown is Visayas and Math less than 70, and name it Vis.
 
 1b.Dispaly the data [Name,GEAS,Electronics].With the condition of Track is instrumentation,Hometown is Luzon, Electronics greater than 70,and name it Instru.
 
 1c.Display the data [Name,Track,Electronics,Average].With the condition of hometown is Mindanao, gender is female, and average >=55,and name it Mindy.
 
+## Problem 2:Visualization
 2.Create a visualization that shows how the different features contributes to average grade. Does 
 chosen track in college, gender, or hometown contributes to a higher average score? 
 
 Steps:
-
+## Problem 1:Data Frames
 1a.
 
 `
@@ -54,6 +54,8 @@ Mindy
 The code calculates each student’s average score across Math, Electronics, GEAS, and Communication, saves it in a new column called Average with the help of the function mean(), then filters df for female students from Mindanao with an average of 55 or higher, selecting only Name, Track, Electronics, and Average, and stores the result in Mindy.
 
 <img width="245" height="131" alt="image" src="https://github.com/user-attachments/assets/28754df6-c1a0-4c0c-a775-1d07135c05e3" />
+
+## Problem 2:Visualization
 
 2a.
 
