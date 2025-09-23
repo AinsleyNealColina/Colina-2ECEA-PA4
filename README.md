@@ -24,8 +24,11 @@ Steps:
 1a.
 
 `
-Vis = df[(df['Hometown'] == 'Visayas') & (df['Math'] < 70)][['Name', 'Gender', 'Track', 'Math']]
-Vis
+Vis-name of the file
+df[(df['Hometown'] == 'Visayas')-sorts the data where the Hometown is Visayas
+(df['Math'] < 70)]-sorts the data where Math is less than 70
+[['Name', 'Gender', 'Track', 'Math']]-Outputs the Name,Gender,Track,Math where the conditions are met
+Vis-calls the filename
 `
 
 The code filters df to include only rows where Hometown is "Visayas" and Math is less than 70, selects the Name, Gender, Track, and Math columns, and saves the result to the variable Vis, with the help of pandas(remember:conditions on the left and output on the right).
