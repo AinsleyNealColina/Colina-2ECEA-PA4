@@ -24,15 +24,20 @@ Steps:
 1a.
 
 ```python
-Vis-name of the file
+#name of the file
+Vis
 
-df[(df['Hometown'] == 'Visayas')-sorts the data where the Hometown is Visayas
+#sorts the data where the Hometown is Visayas
+df[(df['Hometown'] == 'Visayas')
 
+#sorts the data where Math is less than 70
 (df['Math'] < 70)]-sorts the data where Math is less than 70
 
-[['Name', 'Gender', 'Track', 'Math']]-Outputs the Name,Gender,Track,Math where the conditions are met
+#Outputs the Name,Gender,Track,Math where the conditions are met
+[['Name', 'Gender', 'Track', 'Math']]
 
-Vis-calls the filename
+#Calls the filename
+Vis
 ```
 
 The code filters df to include only rows where Hometown is "Visayas" and Math is less than 70, selects the Name, Gender, Track, and Math columns, and saves the result to the variable Vis, with the help of pandas(remember:conditions on the left and output on the right).
