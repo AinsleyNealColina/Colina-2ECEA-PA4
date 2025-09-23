@@ -198,7 +198,7 @@ plt.figure(figsize=(10, 6))
 #Draws a box plot using seaborn and displays the Track on the horizontal axis and Average on the Vertical axis,and it gets its data from df
 sns.boxplot(x='Track', y='Average', data=df)
 
-#Names the boxplot "Average grade by Track"
+#Names the boxplot "Distribution of average grade by Track"
 plt.title('Distribution of Average Grades by Track')
 
 #Displays the completed boxplot
@@ -218,7 +218,7 @@ plt.figure(figsize=(10, 6))
 #Draws a box plot using seaborn and displays the Gender on the horizontal axis and Average on the Vertical axis,and it gets its data from df
 sns.boxplot(x='Gender', y='Average', data=df)
 
-#Names the boxplot "Average grade by Gender"
+#Names the boxplot "Distribution of average grade by Gender"
 plt.title('Distribution of Average Grades by Gender')
 
 #Displays the completed boxplot
@@ -238,7 +238,7 @@ plt.figure(figsize=(10, 6))
 #Draws a box plot using seaborn and displays the Hometown on the horizontal axis and Average on the Vertical axis,and it gets its data from df
 sns.boxplot(x='Hometown', y='Average', data=df)
 
-#Names the boxplot "Average grade by Hometown"
+#Names the boxplot "Distribution of average grade by Hometown"
 plt.title('Distribution of Average Grades by Hometown')
 
 #Displays the completed boxplot
