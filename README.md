@@ -57,10 +57,19 @@ The code filters df to include only rows where Hometown is "Visayas" and Math is
 1.b
 
 ```python
+#Name of the file
 Instru=df[(df['Track'] == 'Instrumentation') & (df['Hometown'] == 'Luzon') & (df['Electronics'] > 70)][['Name', 'GEAS', 'Electronics']]
+
+#Sorts the data where Track is Instrumentation
 df[(df['Track'] == 'Instrumentation')
+
+#Sorts the data where hometown is Luzon
 (df['Hometown'] == 'Luzon')
+
+#Sorts the data where Electronics is greater than 70
 (df['Electronics'] > 70)]
+
+#Outputs the Name,GEAS,Electronics,where the conditions where met
 [['Name', 'GEAS', 'Electronics']]
 Instru
 ```
