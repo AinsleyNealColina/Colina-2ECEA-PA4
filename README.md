@@ -20,7 +20,7 @@ So we are tasked to:
 chosen track in college, gender, or hometown contributes to a higher average score? 
 
 Steps:
-## Problem 1:Data Frames
+## Solution 1:Data Frames
 1.Before we start we must import pandas as pd and load the excel file.
 
 ```python
@@ -110,7 +110,7 @@ The code calculates each student’s average score across Math, Electronics, GEA
 
 <img width="245" height="131" alt="image" src="https://github.com/user-attachments/assets/28754df6-c1a0-4c0c-a775-1d07135c05e3" />
 
-## Problem 2:Visualization
+## Solution 2:Visualization
 
 2a.
 
